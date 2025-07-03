@@ -1,0 +1,88 @@
+body {
+    background: #f1f4f9;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    color: #008080;
+}
+
+.form-section {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+    margin-bottom: 40px;
+}
+
+.form-label {
+    font-weight: 600;
+    color: #008080;
+    margin-bottom: 6px;
+    font-size: 0.95rem;
+}
+
+.form-control {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 10px 14px;
+    font-size: 0.95rem;
+    transition: border-color 0.2s ease;
+}
+
+.form-control:focus {
+    border-color: #008080;
+    box-shadow: 0 0 0 0.15rem rgba(0, 128, 128, 0.2);
+}
+
+.btn-primary {
+    background-color: #008080;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.btn-primary:hover {
+    background-color: #006666;
+}
+
+.card-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #008080;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+
+.price-section {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.07);
+}
+
+.list-group-item {
+    font-size: 1.05rem;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    color: #004c4c;
+}
+
+.list-group-item:hover {
+    background-color: #d4f5f5;
+    color: #006666;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #666;
+}
