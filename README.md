@@ -22,21 +22,25 @@ This Django web application visualizes market demand data for airline bookings u
    cd airlineapp
 
 2. **Create a virtual environment**
-
+      ```bash
     python -m venv env
     source env/bin/activate  # On Windows: env\Scripts\activate
 
 3. **Install dependencies**
-
+      ```bash
     pip install -r requirements.txt
 
 4. **Add your API credentials**
 
 Create a .env file in the root and add:
+    
     AMADEUS_API_KEY=your_key
     AMADEUS_API_SECRET=your_secret
 
 5.**Run the app**
+   ```bash
     python manage.py runserver
+
 6.**Visit**
+
     http://127.0.0.1:8000 
